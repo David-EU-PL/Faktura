@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faktura</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- heading -->
+    <header class="block heading">
+        <div class="container grid grid--1x2">
+            <h1 class="heading_title heading_title-primary ">Fakturowo</h1>
+            <section>
+                <div>
+                    <h3>Miejsce wystawienia</h3>
+                    <div>
+                        <span>Piotrków Trybunalski</span>
+                    </div>
+                </div>
+                <div>
+                    <h3>Data wystawienia</h3>
+                    <div>
+                        <span>03-02-2021</span>
+                    </div>
+                </div>
+                <div>
+                    <h3>Data wykonania usługi</h3>
+                    <div>
+                        <span>03-02-2021</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <!-- companies -->
+    <section class="block">
+        <div class="container">
+            <div>
+                <h3>Sprzedawca</h3>
+                <div>
+                    <span>Usługi Informatyczne Jan Nowak</span>
+                    <span>NIP: 1234121231</span>
+                    <span>Kowalska 12</span>
+                    <span>00-001 Warszawa</span>
+                </div>
+            </div>
+            <div>
+                <h3>Nabywca</h3>
+                <div>
+                    <span>ABC INFO Jan Kowalski</span>
+                    <span>NIP: 2345683788</span>
+                    <span>Nowakowska 12</span>
+                    <span>22-102 Góra Kalwaria</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- invoice content -->
+    <section class="block">
+        <div class="container">
+            <h2>Faktura VAT 02/02/2021</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Lp.</th>
+                        <th>Nazwa towaru lub usługi</th>
+                        <th>Jm.</th>
+                        <th>Ilość</th>
+                        <th>Cena netto</th>
+                        <th>Wartość netto</th>
+                        <th>Stawka VAT</th>
+                        <th>Kwota VAT</th>
+                        <th>Wartość brutto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Instalacja systemu operacyjnego</td>>
+                        <td>usł.</td>
+                        <td>1</td>
+                        <td>1000,08</td>
+                        <td>1000,08</td>
+                        <td>23%</td>
+                        <td>230,02</td>
+                        <td>1230,10</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="5">W tym</th>
+                        <th>1000,08</th>
+                        <th>23%</th>
+                        <th>230,02</th>
+                        <th>1230,10</th>
+                    </tr>
+                    <tr>
+                        <th colspan="5">Razem</th>
+                        <th>1000,08</th>
+                        <th></th>
+                        <th>230,02</th>
+                        <th>1230,10</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+
+    <!-- summary -->
+    <section class="block">
+        <div class="container">
+            <div>
+                <div>
+                    <span>Sposób płatności</span>
+                    <span>Przelew w terminie 2 dni</span>
+                </div>
+                <div>
+                    <span>Termin płatności</span>
+                    <span>05-02-2021</span>
+                </div>
+                <div>
+                    <span>Numer konta</span>
+                    <span>15 1000 2000 3000 4000 5000 6000</span>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <span>Do zapłaty</span>
+                    <span>1230,10 PLN</span>
+                </div>
+                <div>
+                    <span>Słownie</span>
+                    <span>jeden tysiąc dwieście trzydzieśc 10/100 PLN</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- signature -->
+    <section class="block">
+        <div class="container">
+            <div>
+                <span>Jan Nowak</span>
+                <small>Podpis osoby upoważnionej do wystawienia</small>
+            </div>
+
+            <div>
+                <span>&nbsp;</span>
+                <spsn>Podpis osoby upoważnionej do odbioru</spsn>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="block">
+        <div class="container">
+            <span>Fakturowo.pl</span>
+            <span>Strona 1 z 1</span>
+        </div>
+    </footer>
+</body>
+
+</html>
