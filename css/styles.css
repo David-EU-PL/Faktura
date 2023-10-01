@@ -1,4 +1,6 @@
-@import './normalize.css': root {
+@import './normalize.css'; 
+
+:root {
 	--color-border-primary: #a6a6a6;
 	--color-background-primary: #e6e6e6;
 }
@@ -66,7 +68,7 @@ h3 {
 	padding: 1rem 2rem;
 }
 
-.container{
+.container {
 	max-width: 1140px;
 	margin: 0 auto;
 }
@@ -81,15 +83,33 @@ h3 {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
-
-/* heading */
-.heading_title{
-font-style: italic;
-text-align: center;
-align-self: center;
+/* card */
+.card {
+	margin: 1rem 0;
 }
-.heading_title-primary{
-color: #2584ff;
+.card_header-text {
+	background: var(--color-background-primary);
+	border-top: 1px solid var(--color-border-primary);
+	padding-top: 0;
+	margin: 0;
+}
+
+.card_value {
+	display: inline-block;
+	margin-top: .4rem;
+}
+/* heading */
+.heading_title {
+	font-style: italic;
+	text-align: center;
+	align-self: center;
+}
+.heading_title-primary {
+	color: #2584ff;
+}
+
+.heading_invoice-info {
+	text-align: center;
 }
 /* companies */
 /* invoice contnent */
